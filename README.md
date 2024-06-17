@@ -23,7 +23,7 @@ Firstly, the original unobfuscated data need to be downloaded from [MULTITuDE](h
 To fine-tune a base model for machine-generated text detection task, use the provided [03_finetune_detector.py](03_finetune_detector.py) script.
 
 ## Run Detection
-To run statistical methods, use the [IMGTB framework](https://github.com/kinit-sk/IMGTB). To run pre-trained and fine-tuned methods, use the provided (04_test_detector.py)[04_test_detector.py] script. Since the Longformer Detector requires a special pre-processing step, use the provided (04_test_longformer.py)[04_test_longformer.py] instead.
+To run statistical methods, use the [IMGTB framework](https://github.com/kinit-sk/IMGTB). To run pre-trained and fine-tuned methods, use the provided [04_test_detector.py](04_test_detector.py) script. Since the Longformer Detector requires a special pre-processing step, use the provided [04_test_longformer.py](04_test_longformer.py) instead.
 
 ## Results Analysis
 To analyze the results, use the provided [05_results_analysis.ipynb](05_results_analysis.ipynb) Google Colab notebook.
