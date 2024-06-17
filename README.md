@@ -17,7 +17,7 @@ Firstly, the original unobfuscated data need to be downloaded from [MULTITuDE](h
 8. For text edits by ALISON, use the source code provided in the original [ALISON repository](https://github.com/EricX003/ALISON), while applying the settings mentioned in the paper.
 9. For text edits by DFTFooler, use the source code provided in the original [DFTFooler repository](https://github.com/jmpu/DeepfakeTextDetection), while applying the settings mentioned in the paper.
 
-10. After the obfuscated data are generated, run the provided [02_text_quality.ipynb](02_text_quality.ipynb) to calculate and analyze various automated text similarity metrics between the original and obfuscated data.
+10. After the obfuscated data are generated, run the provided [02_text_quality.ipynb](02_text_quality.ipynb) Google Colab notebook to calculate and analyze various automated text similarity metrics between the original and obfuscated data.
 
 ## Fine-tuning
 To fine-tune a base model for machine-generated text detection task, use the provided [03_finetune_detector.py](03_finetune_detector.py) script.
