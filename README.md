@@ -1,5 +1,19 @@
 # Authorship Obfuscation in Multilingual Machine-Generated Text Detection
-Source code for replication of the experiments in the paper submitted to ACL Rolling Review.
+Source code for replication of the experiments in the paper [accepted](https://arxiv.org/abs/2401.07867) to EMNLP 2024 Findings.
+
+## Cite
+If you use the data, code, or the information in this repository, cite the following paper, please (also available on [arXiv](https://arxiv.org/abs/2401.07867)).
+```bibtex
+@misc{macko2024authorshipobfuscationmultilingualmachinegenerated,
+      title={Authorship Obfuscation in Multilingual Machine-Generated Text Detection}, 
+      author={Dominik Macko and Robert Moro and Adaku Uchendu and Ivan Srba and Jason Samuel Lucas and Michiharu Yamashita and Nafis Irtiza Tripto and Dongwon Lee and Jakub Simko and Maria Bielikova},
+      year={2024},
+      eprint={2401.07867},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL},
+      url={https://arxiv.org/abs/2401.07867}, 
+}
+```
 
 ## Install Dependencies
 Each external obfuscator has each own requirements and dependencies that need to be installed from the corresponding repository. At least, install the dependencies of the original [MULTITuDE benchmark](https://github.com/kinit-sk/mgt-detection-benchmark), on which our study is built.
